@@ -22,7 +22,7 @@ This lab guides you through basics of Python for the Deep Learning course and pr
 Here's a generated dataset, with 3 classes and 15 attributes. Your goal is to reduce data dimension to 2 and 3, and then plot 2-D and 3-D visualization on the compressed data, respectively.
 
 ## Lab 3: Decision Trees & Random Forests
-We try to make predition from another [dataset breast cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)) wisconsin. But there are too many features in this dataset. Please try to improve accuracy per feature $\rm \frac{Accuracy}{\#Feature}$.
+We try to make predition from another [dataset breast cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)) wisconsin. But there are too many features in this dataset. Please try to improve accuracy per feature $\rm \frac{Accuracy}{Feature}$.
 
 ## Lab 4-1: Perceptron, Adaline, and Optimization
 Implement the Adaline with SGD which can set different batch_size ($\rm M$) as parameter. Then, use the [Iris](https://archive.ics.uci.edu/ml/datasets/iris) dataset to fit your model with 3 different $\rm M$ (including $\rm M=1$) and fixed learning rate $\rm \eta$ and print out the accuracy of each model. Last, plot the cost against the number of epochs using different $\rm M$ in one figure.
